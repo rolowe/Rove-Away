@@ -1,0 +1,50 @@
+body, html {
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10% 0 0;
+}
+
+#cache_flights button.ui {
+  clear: both;
+  display: block;
+  margin: 20px auto;
+}
+
+#cache_flights input,
+.ui.selection.dropdown {
+  width: 80%;
+}
+
+.half {
+  float: left;
+  width: 50%;
+}
+.third {
+  float: left;
+  width: 33.3%;
+}
+.quarter {
+  float: left;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+
+@media (max-width: 680px) {
+  .half,
+  .third,
+  .quarter {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+}
